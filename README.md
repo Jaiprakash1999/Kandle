@@ -1,2 +1,0 @@
-# kandle
-crypto currency
