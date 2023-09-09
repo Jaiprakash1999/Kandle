@@ -1,0 +1,206 @@
+.container {
+    position: relative;
+    background: #0d0d0d;
+    width: 30%;
+    left: 35%;
+    @media (max-width: 768px) {
+        width: 100%;
+        left: 0%;
+    }
+}
+.track {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: #ffffff;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.header {
+    background: #0d0d0d;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 30%;
+    top: 0;
+    z-index: 1;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 8px 0px rgba(98, 127, 172, 0.2);
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+.hr {
+    width: 90%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.total_rewards_text {
+    color: #848d8d;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.total_rewards {
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(56, 65, 69, 0.3);
+    color: #ffbf39;
+    padding: 8px 0px 8px 100px;
+    width: 90%;
+    margin: 20px 0px;
+}
+.main {
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.affiliate_text {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+}
+.became_text {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+}
+.affiliate_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fortyx {
+    color: #00ff9b;
+    font-size: 11px;
+    margin-right: 4px;
+}
+.text {
+    opacity: 0.95;
+    color: #fff;
+    font-size: 11px;
+}
+.rewards_value {
+    color: #1eaf47;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 2px;
+}
+.google_sign_up {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 24px 0px;
+    padding: 10px 22px;
+    background: rgba(255, 255, 255, 0.9);
+}
+.reward_cmparison {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 28px 0px;
+}
+.signup_text {
+    margin-left: 12px;
+}
+.info_text {
+    color: #fff;
+    font-size: 11px;
+    margin-top: 2px;
+}
+.commission_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 24px 0px 0px 0px;
+    border-radius: 3px;
+    width: 90%;
+    background: linear-gradient(
+        117deg,
+        rgba(50, 50, 50, 0.4) 1.56%,
+        rgba(21, 21, 21, 0.4) 97.7%
+    );
+}
+.user_container {
+    display: flex;
+    align-items: center;
+    margin: 6px 0px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    margin: 16px 24px;
+}
+.user_avator {
+    background: rgba(56, 65, 69, 0.3);
+    border-radius: 50%;
+    padding: 4px 4px 2px 4px;
+    margin-right: 6px;
+}
+.kandle_text {
+    background: linear-gradient(180deg, #ffeb34 57.26%, #1eaf76 89.52%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 6px;
+}
+
+.ten_percent {
+    color: #ffeb34;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.lifetime_commision {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 4px;
+    text-transform: uppercase;
+}
+.view_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view_icon {
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+@keyframes glow {
+    100% {
+        box-shadow: 0 0 0px #d33030;
+    }
+    50% {
+        box-shadow: 0 0 20px #d33030;
+    }
+    0% {
+        box-shadow: 0 0 0px #d33030;
+    }
+}
+.rewards_circle {
+    display: flex;
+    align-items: center;
+    margin-left: -250px;
+    margin-top: 24px;
+}
+.animation_container {
+    width: 12px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    animation: glow 1s infinite;
+    border-radius: 50%;
+}
