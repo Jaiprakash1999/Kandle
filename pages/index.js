@@ -5,9 +5,9 @@ import GoogleImage from "next/image";
 import LifeTimeCommission from "next/image";
 import SignupBonus from "next/image";
 import Rewards from "next/image";
-import User from "next/image";
 import EyeView from "next/image";
 import Circle from "next/image";
+import Users from "./Users";
 
 export default function Home() {
     return (
@@ -132,78 +132,13 @@ export default function Home() {
                     </strong>
                     <div className={styles.hr} />
                     <div style={{ marginTop: "12px" }}>
-                        <div className={styles.user_container}>
-                            <span className={styles.user_avator}>
-                                <User
-                                    src="/user.svg"
-                                    alt="user avator"
-                                    height={20}
-                                    width={20}
-                                />
-                            </span>
-                            <span className={styles.info_text}>
-                                Parteek Garg Got{" "}
-                                <span className={styles.rewards_value}>
-                                    100 USDT
-                                </span>
-                                rewards
-                            </span>
-                        </div>
-                        <div className={styles.user_container}>
-                            <span className={styles.user_avator}>
-                                <User
-                                    src="/user.svg"
-                                    alt="user avator"
-                                    height={20}
-                                    width={20}
-                                />
-                            </span>
-                            <span className={styles.info_text}>
-                                Manish Sir Got{" "}
-                                <span className={styles.rewards_value}>
-                                    50 USDT
-                                </span>
-                                rewards
-                            </span>
-                        </div>
-                        <div className={styles.user_container}>
-                            <span className={styles.user_avator}>
-                                <User
-                                    src="/user.svg"
-                                    alt="user avator"
-                                    height={20}
-                                    width={20}
-                                />
-                            </span>
-                            <span className={styles.info_text}>
-                                Rajat Gulati Got{" "}
-                                <span className={styles.rewards_value}>
-                                    6 USDT
-                                </span>
-                                rewards
-                            </span>
-                        </div>
-                        <div className={styles.user_container}>
-                            <span className={styles.user_avator}>
-                                <User
-                                    src="/user.svg"
-                                    alt="user avator"
-                                    height={20}
-                                    width={20}
-                                />
-                            </span>
-                            <span className={styles.info_text}>
-                                Abhay Sharma Got{" "}
-                                <span className={styles.rewards_value}>
-                                    0.5 USDT
-                                </span>
-                                rewards
-                            </span>
-                        </div>
+                        <Users />
                     </div>
                 </div>
 
-                <div>Register now to get your Affiliate Code</div>
+                <div className={styles.register_text}>
+                    Register now to get your Affiliate Code
+                </div>
                 <div className={styles.google_sign_up}>
                     <GoogleImage
                         src="/google.svg"

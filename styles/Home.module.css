@@ -35,7 +35,17 @@
 }
 .hr {
     width: 90%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    height: 1px;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.1)
+    );
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: none;
 }
 .total_rewards_text {
     color: #848d8d;
@@ -51,6 +61,12 @@
     padding: 8px 0px 8px 100px;
     width: 90%;
     margin: 20px 0px;
+}
+.register_text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 16px 0px;
 }
 .main {
     width: 100%;
