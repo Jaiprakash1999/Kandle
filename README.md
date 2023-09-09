@@ -1,2 +1,2 @@
-# Kandle
+# kandle
 crypto currency
